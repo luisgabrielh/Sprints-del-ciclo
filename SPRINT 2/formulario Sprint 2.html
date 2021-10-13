@@ -1,0 +1,57 @@
+
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="application-name" content="CONFECCION.COM">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="author" content="Luis Hernàndez">
+        <meta name="keywords" content="formulario web">
+        <title>CONFECCION.COM</title>
+       
+
+    </head>
+      
+    <body>
+        
+        <form action="formulario.html" method=POST>
+            <h3>REGISTRO DE USUARIO</h3>
+            <h3>Seleccione el tipo de usuario</h3>
+            <select name=" usuarios" id="">tipo de usuarios>
+                <option value="Administrador">Administrador</option>
+                <option value="Empleado">Empleado</option>
+                <option value="Cliente">Cliente</option>
+
+            </select>
+
+
+            <h3></h3>
+            <label for="nom">Nombre:</label>
+            <input type="text"name="nombre"id="nombre"size="30"maxlength="40">
+            <h3></h3>
+            <label for="con">Direcciòn</label>
+            <input type="text"name="Direcciòn"id="Direcciòn"maxlength="50">
+            <h3></h3>
+            <label for="email"> Email</label>
+            <input type="email"name="email"id="">
+            <h3></h3>
+            <label for="con">Contraseña</label>
+            <input type="password"name="clave"id=""maxlength="10">
+            
+            <h3></h3>
+            <label for="genero"> Gènero</label><br><br>
+            <input type="radio"name="genero"value="F">Femenino<br><br>
+            <input type="radio"name="genero"value="M">Masculino<br><br>
+            <h3>Describe tus preferencias.</h3>
+            <textarea name="comentario" id="" cols="40" rows="8"></textarea>
+            
+            
+            <h3></h3>
+            
+            <input type="submit" value="Aceptar">
+            
+
+        </form>
+        
+    </body>
+</html>
